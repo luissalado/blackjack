@@ -1,0 +1,114 @@
+body {
+  background-color: green;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+
+
+button {
+  font-size: 12px;
+  background-color: #0f9200;
+  color: #fff;
+  border: solid white 1px;
+  border-radius: 1px;
+
+}
+
+.boton{
+  width: 30%;
+  height: 25%;
+  font-size: 12px;
+}
+
+
+
+#cupier {
+  margin-top: 5px;
+  align-items: center;
+}
+#jugador{
+  margin-top: 5px;
+  align-items: center;
+}
+
+#jugadorpuntos{
+  margin-top: 20px;
+  align-items: center;
+}
+
+#crupierpuntos {
+  margin-top: 20px;
+  align-items: center;
+}
+
+#resultado {
+  align-items: center;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 50px;
+}
+
+img[alt="2"]{
+  width: 200px;
+
+}
+
+.menu-apuesta {
+  width: 350px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.61);
+  padding: 10px;
+  border: 3px solid rgb(255, 255, 255);
+  font-size: 16px;
+  margin-right: 25px;
+  float: right;
+}
+.menu-botones{
+  width: 350px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.61);
+  padding: 10px;
+  border: 3px solid rgb(255, 255, 255);
+  font-size: 16px;
+  margin-right: 25px;
+  float: left;
+}
+
+.apuesta{
+  height: 15%;
+  font-size: 16px;
+}
+
+
+.allin{
+  height: 15%;
+  font-size: 14px;
+  background-color: #0f9200;
+  
+}
+
+button {
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  background-color: #0f9200;
+  color: #fff;
+  border: solid white 1px;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.boton{
+  width: 30%;
+  height: 25%;
+  font-size: 16px;
+}

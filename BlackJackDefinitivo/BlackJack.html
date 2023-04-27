@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Blackjack</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+</head>
+
+<body>
+    <center>
+        <img 
+        src="Blackjack.png" 
+        alt="2" 
+        >
+    </center>
+
+    <div class="menu-botones">
+    <button class="boton" onclick="empezar()">Empezar Partida</button>
+    <button class="boton" onclick="plantar()">Plantarse</button>
+    <button class="boton" onclick="tomarCarta()">Tomar Carta</button> <br>
+    <button class="boton" onclick="rendir()">Rendirse</button>
+    <button class="boton" onclick="">Doblar</button>
+    <button class="boton" onclick="">Dividir</button>
+    <button class="boton" onclick="">Seguro</button>
+    </div>
+
+    <div class="menu-apuesta">
+        <button class="apuesta" onclick="apostarFichas(10)">10</button>
+        <button class="apuesta" onclick="apostarFichas(50)">50</button>
+        <button class="apuesta" onclick="apostarFichas(100)">100</button>
+        <button class="apuesta" onclick="apostarFichas(500)">500</button>
+        <button class="apuesta" onclick="apostarFichas(1000)">1000</button>
+        <button class="apuesta" onclick="apostarFichas(2500)">2500</button>
+        <button class="allin" onclick="apostarFichas()">ALL IN</button>
+        <h2 id="tus-fichas">Tus fichas: 300</h2>
+        <h2 id="fichas-apostadas">Tu apuesta : </h2>
+        <button class="boton-apuesta" onclick="limpiar()">Devolver Dinero</button>
+    </div>
+
+
+    <div id="jugadorpuntos">
+        <h2>Puntuacion Jugador: </h2>
+    </div>
+    <div id="jugador">
+        <h2>Tus Cartas</h2>
+        <ul></ul>
+    </div>
+    <div id="crupierpuntos">
+        <h2>Puntuacion crupier: </h2>
+    </div>
+    <div id="crupier">
+        <h2> Sus Cartas </h2>
+        <ul></ul>
+    </div>
+    <div id="resultado"></div>
+</body>
+<script src="main.js"></script>
+
+</html>
